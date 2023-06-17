@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DocBot</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="docstl.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-bold-straight/css/uicons-bold-straight.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <img src="assets/logo.jpeg" id="child" alt="" class="logo" />
+      <span>
+        <button id="doctor">Doctor</button>
+        <button id="parent"></button>
+      </span>
+      <span class="navcon">
+        <h4><a href="home.html">Home</a></h4>
+        <h4>About us</h4>
+        <h4>Contact us</h4>
+        <span><i class="fi fi-bs-bell"></i></span>
+        <span><i class="fi fi-ss-user"></i></span>
+      </span>
+    </nav>
+    <main class="content">
+      <div class="q_box"></div>
+      <div class="turtle">
+        <div class="turtle_card">
+          <img src="./assets/ani_doc.png" alt="" />
+          <div class="ques_ans">
+            <span>
+              <p id="rendata">Hello, I am Mr. DocBot. Ask me....🫠🫠</p>
+            </span>
+            <div class="input_card">
+              <p>Ask to Mr. DocBot</p>
+              <input type="text" id="askquestion" placeholder="Write question here" />
+              <button id="ask">Ask to DocBot</button>
+            </div>
+          </div>
+        </div>
+        <div class="video">
+          <video id="video" src="./assets/video1.mp4" controls></video>
+        </div>
+      </div>
+    </main>
+    <div class="doc_paren d_none">
+      <div class="docto">
+        <div class="addbox">
+          <h2>Add, Edit and Delete questions and responses for DocBot</h2>
+          <input type="text" id="question" placeholder="Write question" />
+          <input type="text" id="responses" placeholder="Write responses" />
+          <button id="add">Add</button>
+          <button id="edit">Edit</button>
+          <button id="delete">Delete</button>
+        </div>
+        <div class="addbox">
+          <h2>Add, Edit and Delete multimedia content relevant to diabetes.</h2>
+          <input type="text" id="question" placeholder="Drag or upload your file" readonly style="cursor: not-allowed;" />
+          <input class="d_none" type="file" id="multimedia" onchange="upload()" type="video/mp4" />
+          <label for="multimedia">Choose Video</label>
+          <span><p id="getlink">Upload the video here</p></span>
+        
+        </div>
+        <div class="addbox vv">
+          <video id="addvideo" src="./assets/video1.mp4" controls></video>
+        </div>
+      </div>
+    </div>
+    <footer class="d_noe">
+      <div class="container">
+        <div class="first">
+          <h3 class="logo">TakeCare</h3>
+          <p>We are here</p>
+          <h3 class="ps"><span>About Us</span></h3>
+          <p>
+            It is a webapp relate to the Healthcare<br />in which we manage the
+            patient and doctor
+          </p>
+          <p class="ps1"><span>Contact Us</span></p>
+          <p>
+            <i class="fa-sharp fa-solid fa-phone-volume"> </i> +9999 999 999
+          </p>
+          <p><i class="fa-solid fa-envelope"></i> mdmoinuddinmansoori.com</p>
+        </div>
+
+        <div class="second">
+          <h3 class="ps2">Information</h3>
+          <link rel="#" />
+          <ul class="link1">
+            <li>About Us</li>
+            <li>More Search</li>
+            <li>Blog</li>
+            <li>Testimonials</li>
+            <li>Events</li>
+          </ul>
+        </div>
+        <div class="third">
+          <h3 class="ps3">Helpful Links</h3>
+          <link rel="#" />
+          <ul class="link">
+            <li>Services</li>
+            <li>Supports</li>
+            <li>Terms & Condition</li>
+            <li>Testimonials</li>
+            <li>Privacy Policy</li>
+          </ul>
+        </div>
+        <div class="forth">
+          <h3 class="ps5">Subscribe More Info</h3>
+          <button class="btn">
+            <i class="fa-solid fa-envelope"></i> Enter Your Email
+          </button>
+          <button class="btn2">Subscribe</button>
+        </div>
+      </div>
+
+      <div class="hr"></div>
+      <div class="icon">
+        <div class="small">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-google"></i>
+          <i class="fa-brands fa-square-twitter"></i>
+          <i class="fa-brands fa-square-instagram"></i>
+        </div>
+        <div class="para">
+          <p>2023 company Ltd. All Right Reserved</p>
+        </div>
+      </div>
+    </footer>
+    <script>
+      document.querySelector('#mname').innerHTML=localStorage.getItem('myname')
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(244, 244, 244);
+    overflow-x: hidden;
+}
+.navbar{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color:  #ffffff;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.45);
+    /* border-bottom: 1px solid #0356AA; */
+}
+.logo{
+    width: 140px;
+    mix-blend-mode: darken;
+    cursor: pointer;
+}
+.navcon{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 22px 30px 16px 50px;
+    cursor: pointer;
+}
+.navcon h4:first-child{
+    color: #0357aa;
+    text-decoration: underline;
+}
+a{
+    color: #0357aa;
+    text-decoration: none;
+}
+.containr{
+    border: 1px solid #0357aa;
+    width: 930px;
+    margin: 40px auto;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+
+}
+.container-1{
+    display: flex;
+    width: 930px;
+    margin: 50px auto;
+}
+.main-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.parameter{
+   height: 130px; 
+   width: 130px;
+   /* border: 1px solid gray; */
+   border-radius: 10px;
+   padding: 10px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.box-1{
+    background-color:rgba(233, 116, 116, 0.541);
+    box-shadow: 5px 5px 10px 0px rgba(242, 102, 102, 0.308);
+}
+.box-2{
+    background-color:rgba(142, 92, 189, 0.61) ;
+    box-shadow: 5px 5px 10px 0px rgba(183, 130, 240, 0.37);
+}
+.box-3{
+    background-color:rgba(84, 84, 194, 0.555);
+    box-shadow: 5px 5px 10px 0px rgba(96, 96, 252, 0.336);
+}
+.box-4{
+    background-color:rgba(183, 240, 183);
+    box-shadow: 5px 5px 10px 0px rgba(124, 242, 124, 0.281);
+}
+.box-5{
+    background-color:rgba(233, 181, 85, 0.671);
+    box-shadow: 5px 5px 10px 0px rgba(245, 211, 133, 0.301);
+}
+.bold{
+font-weight: bold;
+font-size: small;
+}
+.gray{
+    color: rgb(128, 118, 118);
+}
+.red{
+color: red;
+}
+.violet{
+    color: blueviolet;
+}
+.blue{
+    color: blue;
+}
+.green{
+    color: rgb(10, 180, 52);
+}
+.teal{
+    color: orange;
+}
+.remove{
+    mix-blend-mode: darken;
+    height: 22px;
+    width: 22px;
+
+}
+.container-1{
+    display: flex;
+    width: 930px;
+    /* height: 500px; */
+    margin: 50px auto;
+
+}
+.left-header{
+    color: #0790A0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 40px;
+    width: 400px;
+    margin-left: 40px;
+    font-size: larger;
+    gap: 30px;
+}
+.right-header img{
+    margin-right: 30px;
+    height: 250px;
+    width: 400px;
+}
+.dark{
+    font-weight: bold;
+}
+footer{
+    height: auto;
+    width: auto;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.container{
+   border: 1px solid black;
+   height: auto;
+   width: 900px;
+   display: flex;
+   justify-content: space-between;
+   background: black;
+   color: white;
+}
+.first{
+    padding: 10px;
+    margin: 20px;
+}
+.ps{
+    margin: 10px;
+}
+.ps span{
+    color: orange;
+    
+}
+.ps1{
+    margin: 10px;
+}
+.ps1{
+    color: orange;
+}
+.second{
+    padding: 10px;
+    margin: 20px;
+
+}
+
+.ps2{
+    color: orange;
+}
+.third{
+    padding: 10px;
+    margin: 20px;
+}
+.ps3{
+    color: orange;
+}
+.forth{
+    
+        padding: 10px;
+        margin: 20px;
+    }
+    
+
+.btn{
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;
+    display: left;
+}
+.btn2{
+    border: 1px solid grey;
+    height: 40px;
+    width: 150px;
+    background: darkgoldenrod;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+.ps5{
+    font-size: 15px;
+    padding: 5px;
+}
+.link{
+    list-style: none;
+    padding: 5px;
+}
+.link1{
+    list-style: none;
+    padding: 5px;
+}
+.logo{
+    font-size: 30px;
+    padding: 5px 5px;
+}
+.link li{
+    padding: 2px;
+}
+.link1 li{
+    padding: 2px;
+}
+.hr{
+    background-color: red;
+    height: 2px;
+    width: 900px;
+}
+.icon{
+    /* align-items: center; */
+    color: white;
+    display: flex;
+   justify-content: center;
+   
+    
+    
+}
+.small{
+    margin: 10px;
+}
+.para{
+    margin: 10px;
+}
+button{
+    cursor: pointer;
+}
